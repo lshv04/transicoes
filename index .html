@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation tests 2</title>
+
+</head>
+<body>
+    <style>
+        
+        body{
+            margin: 0;
+            width: 100vh;
+            background-color: #fefefe;
+            display:flex;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+           
+
+        }
+        div{
+            height: 50vh;
+            width: 100%;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            border: 2px solid black;
+            margin: 30px;
+        }
+        button{
+            height: 10vh;
+            width: 10%;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            border: 2px solid black;
+            margin: 5px;
+            padding: 12px 24px;
+            color:white;
+            background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+            border-radius:16px 0;
+            
+        }
+ 
+        button:hover{
+            cursor:pointer; /* places a hand when hoover over the button*/
+            height: 30vh;
+            width: 15%;
+            transition: 1s;
+            
+            
+            
+        }
+        span{
+
+            height: 10vh;
+            width: 10vh;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            border: 2px solid black;
+            margin: 5px;
+            padding: 12px 24px;
+            background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+            border-radius:  50%;
+
+        }
+        span:hover{
+            transform:translatey(10px);
+
+        }
+           
+        
+            </style>
+
+          
+
+
+          <div>
+                <button>test</button>
+                <button>test</button>
+                <button>test</button>
+
+          </div>
+
+
+             <div>
+                <span></span>
+                <span></span>
+                <span></span>
+
+            </div>
+</body>
+</html>
