@@ -8,8 +8,8 @@
 Este projeto é um site de portfólio pessoal desenvolvido objetivo de fazer breve revisão sobre transações em html/css.
 
 ## ✔️ Técnicas e tecnologias utilizadas
-HTML5: Para a marcação semântica do conteúdo.  
-CSS3: Para estilização e layout e utilização de transições e transformações
+- **HTML5**: Para a marcação semântica do conteúdo.  
+- **CSS3**: Para estilização e layout e utilização de transições e transformações
 
 ## 📁 Acesso ao projeto
 
